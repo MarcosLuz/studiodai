@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estúdio Ametista - Lapidando corpo e mente | Joinville</title>
+    <meta name="description" content="Estúdio de yoga e pilates em Joinville. Aulas de Hatha Yoga níveis I e II, Pilates tradicional e suspenso. Lapidando corpo e mente.">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" as="style">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💎</text></svg>">
+    
+    <!-- Theme Color for Mobile Browsers -->
+    <meta name="theme-color" content="#9B59B6">
+    <meta name="msapplication-TileColor" content="#9B59B6">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://estudioametista.com.br/">
+    <meta property="og:title" content="Estúdio Ametista - Lapidando corpo e mente | Joinville">
+    <meta property="og:description" content="Estúdio de yoga e pilates em Joinville. Aulas de Hatha Yoga níveis I e II, Pilates tradicional e suspenso. Lapidando corpo e mente.">
+    <meta property="og:image" content="assets/images/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://estudioametista.com.br/">
+    <meta property="twitter:title" content="Estúdio Ametista - Lapidando corpo e mente | Joinville">
+    <meta property="twitter:description" content="Estúdio de yoga e pilates em Joinville. Aulas de Hatha Yoga níveis I e II, Pilates tradicional e suspenso. Lapidando corpo e mente.">
+    <meta property="twitter:image" content="assets/images/og-image.jpg">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <div class="ametista-crystal"></div>
+            </div>
+            <div class="loader-text">Estúdio Ametista</div>
+            <div class="loader-progress">
+                <div class="progress-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <img src="https://storage.builderall.com//franquias/2/6028966/editor-html/4459976.png" alt="Estúdio Ametista" class="logo-img">
+                    <span class="logo-text">Estúdio Ametista</span>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Início</a>
+                <a href="#about" class="nav-link">Sobre</a>
+                <a href="#services" class="nav-link">Modalidades</a>
+                <a href="#location" class="nav-link">Localização</a>
+                <a href="#contact" class="nav-link">Contato</a>
+                <a href="https://wa.me/5547997440932?text=Olá! Gostaria de agendar uma aula no Estúdio Ametista" class="nav-link cta-button" target="_blank">Agendar Aula</a>
+            </div>
+            
+            <div class="nav-social">
+                <a href="https://www.facebook.com/ametistayoga/?ref=br_rs" target="_blank" rel="noopener" class="nav-social-link" title="Facebook do Estúdio Ametista">
+                    <span style="font-size: 1.2rem;">📘</span>
+                </a>
+                <a href="https://www.instagram.com/ametistayogajlle/" target="_blank" rel="noopener" class="nav-social-link" title="Instagram do Estúdio Ametista">
+                    <span style="font-size: 1.2rem;">📷</span>
+                </a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="hero-image-fallback"></div>
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="hero-title-line">Estúdio</span>
+                    <span class="hero-title-line">Ametista</span>
+                </h1>
+                <p class="hero-subtitle">
+                    <span class="typewriter" data-text="Lapidando corpo e mente"></span>
+                </p>
+                <div class="hero-cta">
+                    <a href="#services" class="btn-primary btn-hero" data-ripple>
+                        <span>Comece sua jornada</span>
+                        <div class="btn-bg"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span class="scroll-text">Descubra</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="section-header">
+                        <h2 class="section-title">Sobre o Estúdio</h2>
+                        <div class="section-line"></div>
+                    </div>
+                    <div class="about-text">
+                        <p class="about-paragraph">
+                            No <strong>Estúdio Ametista</strong>, acreditamos que o verdadeiro bem-estar nasce do equilíbrio entre corpo e mente. 
+                            Nossa filosofia é <strong>"Lapidando corpo e mente"</strong> - transformamos cada pessoa que passa por aqui, 
+                            revelando sua força interior, flexibilidade natural e paz mental.
+                        </p>
+                        <p class="about-paragraph">
+                            Localizado em <strong>Joinville, Santa Catarina</strong>, oferecemos uma abordagem personalizada e inclusiva 
+                            ao fitness e wellness. Nossos métodos são adequados para todos os níveis e idades: desde pessoas sedentárias, 
+                            idosos, adolescentes, gestantes, até atletas e pessoas em reabilitação.
+                        </p>
+                        <p class="about-paragraph">
+                            Através do <strong>Hatha Yoga</strong> e <strong>Pilates</strong>, ajudamos você a melhorar o condicionamento físico, 
+                            controlar mente e emoções, reduzir estresse e ansiedade, além de reabilitar lesões musculoesqueléticas.
+                        </p>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="1200">1200</div>
+                            <div class="stat-label">Alunos transformados</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="8">8</div>
+                            <div class="stat-label">Anos de experiência</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="15">15</div>
+                            <div class="stat-label">Modalidades oferecidas</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number" data-count="98">98</div>
+                            <div class="stat-label">% Satisfação clientes</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-media">
+                    <div class="about-image-container">
+                        <img src="https://storage.builderall.com//franquias/2/6028966/editor-html/7833151.jpg" alt="Interior do Estúdio Ametista com equipamentos de yoga e pilates" class="about-image">
+                        <div class="floating-element floating-element-1"></div>
+                        <div class="floating-element floating-element-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="modalidades" id="services" style="padding: 80px 0; background: white; min-height: 600px;">
+        <div class="container" style="max-width: 1200px; margin: 0 auto; padding: 0 20px;">
+            <div class="section-header" style="text-align: center; margin-bottom: 60px;">
+                <h2 style="font-size: 3rem; color: #000; margin-bottom: 20px; font-family: 'Playfair Display', serif;">Modalidades</h2>
+                <p style="font-size: 1.2rem; color: #666; margin-bottom: 30px;">Descubra a prática perfeita para sua jornada</p>
+                <div style="width: 80px; height: 3px; background: #9B59B6; margin: 0 auto;"></div>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 40px;">
+                
+                <!-- YOGA -->
+                <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 15px 35px rgba(0,0,0,0.1); transition: all 0.3s ease; border: 1px solid #f0f0f0;">
+                    <div style="position: relative; height: 280px; overflow: hidden;">
+                        <img src="https://storage.builderall.com//franquias/2/6028966/editor-html/11048750.jpg" 
+                             alt="Aula de Yoga no Estúdio Ametista" 
+                             style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                    </div>
+                    <div style="padding: 30px;">
+                        <h3 style="font-size: 1.8rem; color: #000; margin-bottom: 15px; font-family: 'Playfair Display', serif;">Yoga</h3>
+                        <p style="color: #666; line-height: 1.6; margin-bottom: 20px; font-size: 1rem;">
+                            <strong>Yoga é uma filosofia milenar que busca unir o corpo à mente.</strong> 
+                            Ideal para melhorar condicionamento físico, flexibilidade, controlar mente e emoções, 
+                            diminuindo estresse e ansiedade.
+                        </p>
+                        
+                        <div style="display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;">
+                            <div style="background: #f8f9fa; padding: 8px 12px; border-radius: 20px; font-size: 0.85rem; color: #9B59B6; display: flex; align-items: center; gap: 5px;">
+                                ⏱️ 1h10min
+                            </div>
+                            <div style="background: #f8f9fa; padding: 8px 12px; border-radius: 20px; font-size: 0.85rem; color: #9B59B6; display: flex; align-items: center; gap: 5px;">
+                                👥 Todos níveis
+                            </div>
+                            <div style="background: #f8f9fa; padding: 8px 12px; border-radius: 20px; font-size: 0.85rem; color: #9B59B6; display: flex; align-items: center; gap: 5px;">
+                                🎯 Bem-estar
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; gap: 8px; margin-bottom: 25px; flex-wrap: wrap;">
+                            <span style="background: #9B59B6; color: white; padding: 6px 14px; border-radius: 15px; font-size: 0.8rem;">Hatha Yoga</span>
+                            <span style="background: #9B59B6; color: white; padding: 6px 14px; border-radius: 15px; font-size: 0.8rem;">Meditação</span>
+                            <span style="background: #9B59B6; color: white; padding: 6px 14px; border-radius: 15px; font-size: 0.8rem;">Relaxamento</span>
+                        </div>
+                        
+                        <a href="https://wa.me/5547997440932?text=Olá! Gostaria de saber mais sobre as aulas de Yoga" 
+                           target="_blank"
+                           style="display: block; background: #9B59B6; color: white; text-align: center; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease;">
+                            Saiba Mais sobre Yoga
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PILATES -->
+                <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 15px 35px rgba(0,0,0,0.1); transition: all 0.3s ease; border: 1px solid #f0f0f0;">
+                    <div style="position: relative; height: 280px; overflow: hidden;">
+                        <img src="https://storage.builderall.com//franquias/2/6028966/editor-html/7833145.jpg" 
+                             alt="Aula de Pilates no Estúdio Ametista" 
+                             style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                    </div>
+                    <div style="padding: 30px;">
+                        <h3 style="font-size: 1.8rem; color: #000; margin-bottom: 15px; font-family: 'Playfair Display', serif;">Pilates</h3>
+                        <p style="color: #666; line-height: 1.6; margin-bottom: 20px; font-size: 1rem;">
+                            <strong>Método criado por Joseph H. Pilates na década de 1920.</strong> 
+                            Baseado em 6 princípios: Centralização, Respiração, Fluidez, Controle, Precisão e Concentração. 
+                            <strong>Adequado para todos</strong>, desde sedentários até atletas.
+                        </p>
+                        
+                        <div style="display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;">
+                            <div style="background: #f8f9fa; padding: 8px 12px; border-radius: 20px; font-size: 0.85rem; color: #9B59B6; display: flex; align-items: center; gap: 5px;">
+                                ⏱️ 55min
+                            </div>
+                            <div style="background: #f8f9fa; padding: 8px 12px; border-radius: 20px; font-size: 0.85rem; color: #9B59B6; display: flex; align-items: center; gap: 5px;">
+                                👥 Até 3 pessoas
+                            </div>
+                            <div style="background: #f8f9fa; padding: 8px 12px; border-radius: 20px; font-size: 0.85rem; color: #9B59B6; display: flex; align-items: center; gap: 5px;">
+                                🎯 Core & Postura
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; gap: 8px; margin-bottom: 25px; flex-wrap: wrap;">
+                            <span style="background: #9B59B6; color: white; padding: 6px 14px; border-radius: 15px; font-size: 0.8rem;">Core</span>
+                            <span style="background: #9B59B6; color: white; padding: 6px 14px; border-radius: 15px; font-size: 0.8rem;">Postura</span>
+                            <span style="background: #9B59B6; color: white; padding: 6px 14px; border-radius: 15px; font-size: 0.8rem;">Reabilitação</span>
+                        </div>
+                        
+                        <a href="https://wa.me/5547997440932?text=Olá! Gostaria de saber mais sobre as aulas de Pilates" 
+                           target="_blank"
+                           style="display: block; background: #9B59B6; color: white; text-align: center; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease;">
+                            Saiba Mais sobre Pilates
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PILATES SUSPENSO -->
+                <div style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 15px 35px rgba(0,0,0,0.1); transition: all 0.3s ease; border: 1px solid #f0f0f0;">
+                    <div style="position: relative; height: 280px; overflow: hidden;">
+                        <img src="https://storage.builderall.com//franquias/2/6028966/editor-html/11004058.jpeg" 
+                             alt="Pilates Suspenso no Estúdio Ametista" 
+                             style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+                    </div>
+                    <div style="padding: 30px;">
+                        <h3 style="font-size: 1.8rem; color: #000; margin-bottom: 15px; font-family: 'Playfair Display', serif;">Pilates Suspenso</h3>
+                        <p style="color: #666; line-height: 1.6; margin-bottom: 20px; font-size: 1rem;">
+                            <strong>Para quem busca uma modalidade divertida e intensa</strong> focada no fortalecimento 
+                            e definição muscular. Exercícios em equipamentos Columpio, Lira, MF7 e Fita de Suspensão.
+                        </p>
+                        
+                        <div style="display: flex; gap: 10px; margin-bottom: 20px; flex-wrap: wrap;">
+                            <div style="background: #f8f9fa; padding: 8px 12px; border-radius: 20px; font-size: 0.85rem; color: #9B59B6; display: flex; align-items: center; gap: 5px;">
+                                ⏱️ 55min grupo
+                            </div>
+                            <div style="background: #f8f9fa; padding: 8px 12px; border-radius: 20px; font-size: 0.85rem; color: #9B59B6; display: flex; align-items: center; gap: 5px;">
+                                🎯 Alta intensidade
+                            </div>
+                            <div style="background: #f8f9fa; padding: 8px 12px; border-radius: 20px; font-size: 0.85rem; color: #9B59B6; display: flex; align-items: center; gap: 5px;">
+                                🎪 Exercícios aéreos
+                            </div>
+                        </div>
+                        
+                        <div style="display: flex; gap: 8px; margin-bottom: 25px; flex-wrap: wrap;">
+                            <span style="background: #9B59B6; color: white; padding: 6px 14px; border-radius: 15px; font-size: 0.8rem;">Definição</span>
+                            <span style="background: #9B59B6; color: white; padding: 6px 14px; border-radius: 15px; font-size: 0.8rem;">Força</span>
+                            <span style="background: #9B59B6; color: white; padding: 6px 14px; border-radius: 15px; font-size: 0.8rem;">Aéreo</span>
+                        </div>
+                        
+                        <a href="https://wa.me/5547997440932?text=Olá! Gostaria de agendar uma aula experimental de Pilates Suspenso" 
+                           target="_blank"
+                           style="display: block; background: #9B59B6; color: white; text-align: center; padding: 15px 25px; text-decoration: none; border-radius: 8px; font-weight: 600; transition: all 0.3s ease;">
+                            Aula Experimental Gratuita
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Benefícios Científicos Comprovados</h2>
+                <p class="section-subtitle">Descubra como nossas práticas transformam sua vida de forma integral</p>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-category">
+                    <div class="benefit-icon-large">🧠</div>
+                    <h3 class="benefit-title">Saúde Mental</h3>
+                    <div class="benefit-list">
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <span>Reduz ansiedade em até 68%</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <span>Melhora qualidade do sono</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <span>Aumenta foco e concentração</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <span>Diminui sintomas de depressão</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="benefit-category">
+                    <div class="benefit-icon-large">💪</div>
+                    <h3 class="benefit-title">Condicionamento Físico</h3>
+                    <div class="benefit-list">
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <span>Fortalece core em 3 semanas</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <span>Melhora flexibilidade em 40%</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <span>Corrige desequilíbrios posturais</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <span>Desenvolve força funcional</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="benefit-category">
+                    <div class="benefit-icon-large">🩺</div>
+                    <h3 class="benefit-title">Prevenção & Reabilitação</h3>
+                    <div class="benefit-list">
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <span>Reduz dores nas costas</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <span>Previne lesões articulares</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <span>Melhora densidade óssea</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <span>Acelera recuperação muscular</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="benefit-category">
+                    <div class="benefit-icon-large">🫀</div>
+                    <h3 class="benefit-title">Sistema Cardiovascular</h3>
+                    <div class="benefit-list">
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <span>Reduz pressão arterial</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <span>Melhora circulação sanguínea</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <span>Fortalece sistema imunológico</span>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="benefit-check">✓</span>
+                            <span>Aumenta capacidade pulmonar</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="benefits-cta">
+                <h3>Pronto para experimentar esses benefícios?</h3>
+                <p>Agende sua primeira aula <strong>GRATUITA</strong> e sinta a diferença em sua vida</p>
+                <a href="https://wa.me/5547997440932?text=Olá! Vi os benefícios científicos e gostaria de agendar minha primeira aula GRATUITA" class="btn-primary btn-benefits" target="_blank">
+                    <span>Agendar Primeira Aula Grátis</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pilates Suspenso Highlight Section -->
+    <section class="pilates-highlight">
+        <div class="container">
+            <div class="highlight-grid">
+                <div class="highlight-content">
+                    <div class="section-header">
+                        <h2 class="section-title">Por que escolher o Pilates Suspenso?</h2>
+                        <div class="section-line"></div>
+                    </div>
+                    
+                    <div class="highlight-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">🎯</div>
+                            <div class="feature-text">
+                                <h4>Definição Muscular Completa</h4>
+                                <p>Exercícios de alta intensidade que trabalham todos os grupos musculares simultaneamente</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">⚡</div>
+                            <div class="feature-text">
+                                <h4>Intensidade Personalizada</h4>
+                                <p>Aulas de 55 minutos com intensidade alta a média, adaptada ao seu nível</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">🚁</div>
+                            <div class="feature-text">
+                                <h4>Exercícios Aéreos Únicos</h4>
+                                <p>Columpio e Lira para exercícios suspensos que desafiam gravidade e equilíbrio</p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-item">
+                            <div class="feature-icon">💪</div>
+                            <div class="feature-text">
+                                <h4>Superação Pessoal</h4>
+                                <p>Desafio emocional que desenvolve confiança, coragem e senso de conquista</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="highlight-cta">
+                        <h3>Primeira aula experimental GRATUITA!</h3>
+                        <p>Experimente essa modalidade revolucionária sem compromisso</p>
+                        <a href="https://wa.me/5547997440932?text=Olá! Gostaria de agendar minha aula experimental GRATUITA de Pilates Suspenso" class="btn-primary btn-highlight" target="_blank">
+                            <span>Agendar Aula Gratuita</span>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="highlight-media">
+                    <div class="highlight-images">
+                        <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Pilates Suspenso com equipamentos" class="highlight-img primary">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Exercício aéreo no estúdio" class="highlight-img secondary">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">O que nossos alunos dizem</h2>
+                <p class="section-subtitle">Transformações reais de pessoas que escolheram lapidar corpo e mente conosco</p>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "O Pilates Suspenso mudou completamente minha relação com o exercício. Nunca pensei que conseguiria fazer movimentos aéreos! 
+                            A instrutora é incrível e me ajudou a superar meus medos. Hoje me sinto mais forte e confiante."
+                        </p>
+                        <div class="testimonial-author">
+                            <strong>Maria Silva</strong>
+                            <span>Pilates Suspenso há 8 meses</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "Comecei no Yoga Nível I sem nenhuma experiência. O ambiente acolhedor e as aulas personalizadas fizeram toda diferença. 
+                            Hoje pratico o Nível II e minha ansiedade diminuiu drasticamente. Recomendo demais!"
+                        </p>
+                        <div class="testimonial-author">
+                            <strong>João Santos</strong>
+                            <span>Yoga há 1 ano e meio</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-text">
+                            "Depois de uma lesão nas costas, encontrei no Pilates Tradicional a solução para minha reabilitação. 
+                            Os exercícios específicos e o acompanhamento individual me devolveram a qualidade de vida. Hoje estou sem dores!"
+                        </p>
+                        <div class="testimonial-author">
+                            <strong>Ana Costa</strong>
+                            <span>Pilates Tradicional há 6 meses</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonials-cta">
+                <h3>Seja você a próxima história de sucesso!</h3>
+                <p>Junte-se à nossa comunidade e transforme sua vida através do movimento</p>
+                <a href="https://wa.me/5547997440932?text=Olá! Vi os depoimentos e gostaria de começar minha transformação no Estúdio Ametista" class="btn-primary" target="_blank">
+                    <span>Comece sua transformação</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Badges Section -->
+    <section class="trust-badges">
+        <div class="container">
+            <div class="badges-grid">
+                <div class="badge-item">
+                    <div class="badge-icon">🏆</div>
+                    <h4>Instrutores Certificados</h4>
+                    <p>Profissionais qualificados e com anos de experiência</p>
+                </div>
+                <div class="badge-item">
+                    <div class="badge-icon">🛡️</div>
+                    <h4>Ambiente Seguro</h4>
+                    <p>Protocolos de segurança e equipamentos de qualidade</p>
+                </div>
+                <div class="badge-item">
+                    <div class="badge-icon">❤️</div>
+                    <h4>Acompanhamento Individual</h4>
+                    <p>Atenção personalizada para cada aluno</p>
+                </div>
+                <div class="badge-item">
+                    <div class="badge-icon">⭐</div>
+                    <h4>Primeira Aula Grátis</h4>
+                    <p>Conheça nosso método sem compromisso</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="location" id="location">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Localização</h2>
+                <p class="section-subtitle">Conheça nosso espaço dedicado ao seu bem-estar</p>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="location-content">
+                <div class="location-info">
+                    <div class="location-card">
+                        <div class="location-icon">🏢</div>
+                        <h3>Estúdio Ametista</h3>
+                        <div class="location-details">
+                            <div class="detail-item">
+                                <span class="detail-icon">📍</span>
+                                <div>
+                                    <strong>Endereço:</strong>
+                                    <p>Joinville, Santa Catarina</p>
+                                    <small>Endereço completo informado na confirmação</small>
+                                </div>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <span class="detail-icon">🚗</span>
+                                <div>
+                                    <strong>Estacionamento:</strong>
+                                    <p>Vagas disponíveis no local</p>
+                                </div>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <span class="detail-icon">🏢</span>
+                                <div>
+                                    <strong>Instalações:</strong>
+                                    <p>Ambiente climatizado e totalmente equipado</p>
+                                </div>
+                            </div>
+                            
+                            <div class="detail-item">
+                                <span class="detail-icon">⏰</span>
+                                <div>
+                                    <strong>Funcionamento:</strong>
+                                    <p>Segunda a Sábado - 06:00 às 20:30</p>
+                                    <small>Confira os horários específicos na seção de aulas</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="location-cta">
+                            <a href="https://wa.me/5547997440932?text=Olá! Gostaria de conhecer o Estúdio Ametista. Podem me enviar o endereço?" class="location-btn" target="_blank">
+                                <span class="btn-icon">📱</span>
+                                Solicitar Endereço via WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="location-map">
+                    <h3>Nossa Localização</h3>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14252.566883428837!2d-48.854567!3d-26.304917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deb17cc3398b6f%3A0x7c55f31c6b72a9e3!2sJoinville%2C%20SC!5e0!3m2!1spt!2sbr!4v1693847281123!5m2!1spt!2sbr" 
+                            width="100%" 
+                            height="400" 
+                            style="border:0; border-radius: 12px;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade"
+                            title="Localização Estúdio Ametista - Joinville, SC">
+                        </iframe>
+                    </div>
+                    <div class="map-info">
+                        <div class="map-details">
+                            <h4>📍 Como Chegar</h4>
+                            <p><strong>Cidade:</strong> Joinville, Santa Catarina</p>
+                            <p><strong>Região:</strong> Centro da cidade</p>
+                            <p><strong>Acesso:</strong> Fácil acesso por transporte público</p>
+                            <p><strong>Estacionamento:</strong> Vagas disponíveis no local</p>
+                        </div>
+                        <div class="map-action">
+                            <a href="https://wa.me/5547997440932?text=Olá! Gostaria de saber o endereço exato do Estúdio Ametista para chegar até vocês" class="directions-btn" target="_blank">
+                                <span class="btn-icon">🗺️</span>
+                                Solicitar Endereço Completo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="section-header">
+                        <h2 class="section-title">Entre em Contato</h2>
+                        <p class="section-subtitle">Estamos aqui para ajudar você a iniciar sua jornada</p>
+                        <div class="section-line"></div>
+                    </div>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-text">
+                                <h4>Localização</h4>
+                                <p><strong>Estúdio Ametista</strong></p>
+                                <p>Joinville, Santa Catarina</p>
+                                <p><small>🚗 Estacionamento no local</small></p>
+                                <p><small>🏢 Ambiente climatizado e equipado</small></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📱</div>
+                            <div class="contact-text">
+                                <h4>WhatsApp</h4>
+                                <p>(47) 99744-0932</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📧</div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>contato@estudioametista.com.br</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/ametistayoga/?ref=br_rs" class="social-link" target="_blank" rel="noopener">
+                            <span class="social-icon">📘</span>
+                            <span class="social-text">Facebook</span>
+                        </a>
+                        <a href="https://www.instagram.com/ametistayogajlle/" class="social-link" target="_blank" rel="noopener">
+                            <span class="social-icon">📷</span>
+                            <span class="social-text">Instagram</span>
+                        </a>
+                    </div>
+
+                    <div class="whatsapp-cta">
+                        <a href="https://wa.me/5547997440932?text=Olá! Gostaria de saber mais sobre as aulas no Estúdio Ametista" class="whatsapp-btn" target="_blank" rel="noopener" data-ripple>
+                            <span class="whatsapp-icon">💬</span>
+                            <span>Falar no WhatsApp</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Nome completo</label>
+                            <div class="form-line"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Email</label>
+                            <div class="form-line"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone">
+                            <label for="phone">Telefone</label>
+                            <div class="form-line"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected hidden></option>
+                                <option value="yoga-1">Yoga Nível I</option>
+                                <option value="yoga-2">Yoga Nível II</option>
+                                <option value="pilates-tradicional">Pilates Tradicional</option>
+                                <option value="pilates-suspenso">Pilates Suspenso</option>
+                                <option value="info">Informações Gerais</option>
+                            </select>
+                            <label for="service">Modalidade de interesse</label>
+                            <div class="form-line"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <label for="message">Mensagem</label>
+                            <div class="form-line"></div>
+                        </div>
+
+                        <button type="submit" class="btn-primary btn-submit" data-ripple>
+                            <span>Enviar mensagem</span>
+                            <div class="btn-bg"></div>
+                            <div class="loading-spinner"></div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://storage.builderall.com//franquias/2/6028966/editor-html/4459976.png" alt="Estúdio Ametista" class="footer-logo-img">
+                    <span class="logo-text">Estúdio Ametista</span>
+                </div>
+                <div class="footer-text">
+                    <p>Lapidando corpo e mente em Joinville</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Início</a>
+                    <a href="#about">Sobre</a>
+                    <a href="#services">Modalidades</a>
+                    <a href="#location">Localização</a>
+                    <a href="#contact">Contato</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Estúdio Ametista. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cursor -->
+    <div class="cursor" id="cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-outline"></div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
