@@ -192,7 +192,12 @@ body {
     box-shadow: 0 10px 20px rgba(155, 89, 182, 0.3);
 }
 
-.nav-social-link span {
+.nav-social-link svg {
+    color: var(--primary-white);
+    transition: color var(--transition-medium);
+}
+
+.nav-social-link:hover svg {
     color: var(--primary-white);
 }
 
